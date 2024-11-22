@@ -26,9 +26,10 @@ public class LoginTest {
 		driver.findElement(By.id("react-burger-menu-btn")).click();
 		Thread.sleep(5000);
 		driver.findElement(By.id("logout_sidebar_link")).click();
- 	
-	         }
-		
+		driver.close();
+	
 	}
+    
+}
 	
 
